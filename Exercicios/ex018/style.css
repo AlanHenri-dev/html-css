@@ -1,0 +1,9 @@
+@charset "utf-8"
+@font-face {
+            font-family: 'android';
+            src: url('idroid.otf') format('opentype');
+
+        }
+        body{font-family: 'android';}
+
+    

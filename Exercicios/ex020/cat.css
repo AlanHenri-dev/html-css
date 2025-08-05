@@ -1,0 +1,51 @@
+body
+{
+	background-color:rgba(128,128,0,0.5);
+	
+}
+.float
+{
+	 float:left;
+	 box-shadow:0px 0px 5px gray;
+	 margin-left:0px;
+	 border:1px solid rgba(255,255,255,0.5);
+	 background-color:rgba(255,255,255,0.1);
+	 height:335px;
+}
+.jar
+{
+	background-image:url("http://thecodeplayer.com/uploads/media/561801abb70f581.png");
+	background-repeat:no-repeat;
+	background-position:center;
+	width:200px;
+	height:400px;
+	top:0px;
+	position:relative;
+	
+}
+.cat
+{
+	background-image:url("http://thecodeplayer.com/uploads/media/56180196ba2a662.png");
+	background-repeat:no-repeat;
+	background-position:center;
+	width:200px;
+	height:400px;
+	top:55px;
+	position:absolute;
+	z-index:-1000;
+	webkit-transition: top 2s, -webkit-transform 2s; /* Safari */
+  transition: top 2s,  transform 2s;
+}
+.jar:hover .cat
+{
+	top:-30px;
+	
+}
+.bottom
+{
+	background-color:#A52A2A;
+	clear:both;
+	width:608px;
+	height:30px;
+	box-shadow:0px 0px 5px gray;
+}
